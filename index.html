@@ -1,0 +1,30 @@
+<html>
+   <head>
+    <title>Hand Gesture Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+   </head> 
+   <body>
+    <center>
+<h1>Hand Gesture Web App
+    <br>
+    <span>&#128076;</span>
+    <span>&#128077;</span>
+    <span>&#128078;</span>
+</h1>
+<p >Lets See What Hand Gestures You're Putting Up?</p>
+<div class="col-md-4 col-sm-12 col-xs-12">
+    <label class="camera">Webcam View- </label>
+    <div class="camera" id="camera"></div>
+    <br><br>
+    <button id="take_photo"class="camera"onclick="take_snapshot();" >Capture Image</button>
+</center>
+   </body>
+</html>
